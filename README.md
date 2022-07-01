@@ -1,2 +1,2 @@
-# Pulanglah
- project
+CREATE TABLE STAFFS(
+STAFFID NUMBER(10));
