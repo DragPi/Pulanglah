@@ -1,0 +1,495 @@
+/* 
+reset stylesheet
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*MY CSS code*/
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #b79443;
+}
+
+header {
+    background-color: #8d4d2e;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-brand {
+    font-family: 'copperplate-gothic-bold-regular';
+    font-size: 60px;
+    font-weight: 900px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 12px;
+}
+
+header nav ul li a{
+    display: block;
+    font-family: 'footlight-mt-light-regular';
+    color: #fff;
+    line-height: 60px;
+    font-size: 16px;
+
+}
+
+.index-banner{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url(img/img1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.index-food-order{
+    width: calc(100% - 50vw);
+    height: 60px;
+    background-color: #e1d243;
+}
+
+.index-drink-order{
+    width: calc(100% - 50vw);
+}
+
+main nav ul{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+main nav ul li {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-link{
+    background-color: #e1d243;
+}
+.drink-link{
+    background-color: #F09227;
+}
+
+main nav ul a{
+    display: block;
+    font-family: 'footlight-mt-light-regular';
+    color: #111;
+    line-height: 50px;
+    width: 50vw;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+
+}
+.cards-food{
+    margin-top: 15px;
+    display: flex;
+    --distance: -4rem;
+
+}
+.card-food{
+    height: 150px;
+    width: 150px;
+    background: #E1B9B9;
+    border-radius: 1rem; 
+    padding: 2rem;
+    box-shadow: 4px 4px 15px 2px rgba(0,0,0, 0.75);
+    transition: 0.2s;
+}
+
+.card-food a p{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+}
+.card-food a img {
+    width: 150px;
+    height: 135px;
+}
+
+.card-food:not(:first-child) {
+    margin-left: var(--distance);
+}
+
+.card-food:hover, .card-food:focus-within  {
+    transform: translateY(-1rem);
+}
+
+.card-food:hover ~ .card-food, .card-food:focus-within ~ .card-food{
+    transform: translateX(calc(var(--distance) *
+        -1));
+}
+
+.card-title{
+    margin-left: 19vw;
+    margin-top: 30px;
+}
+
+.cards-drinks{
+    display: flex;
+    justify-content: center;
+}
+.cards-drink{
+    margin-top: 15px;
+    display: flex;
+    --distance: -4rem;
+
+}
+.card-drink{
+    height: 150px;
+    width: 150px;
+    background: #E1B9B9;
+    border-radius: 1rem; 
+    padding: 2rem;
+    box-shadow: 4px 4px 15px 2px rgba(0,0,0, 0.75);
+    transition: 0.2s;
+}
+
+.card-drink:not(:first-child) {
+    margin-left: var(--distance);
+}
+
+.card-drink:hover, .card-drink:focus-within  {
+    transform: translateY(-1rem);
+}
+
+.card-drink:hover ~ .card-drink, .card-drink:focus-within ~ .card-drink{
+    transform: translateX(calc(var(--distance) *
+        -1));
+}
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: black;
+    overflow: hidden;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li{
+    display: block;
+    list-style: none;
+}
+
+footer ul li a{
+    display: block;
+    font-family: 'footlight-mt-light-regular';
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.footer-sm{
+    width: 50px;
+    float: right;
+}
+
+.footer-sm img{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about-text{
+    width: 70vh;
+    height: 500px;
+    background-color: #E1B9B9;
+    box-shadow: 4px 4px 15px 2px;
+    padding: 30px 30px;
+    line-height: 20px;
+
+}
+
+.about-image{
+    width: 50vh;
+    height: 300px;
+    background-color: #E1B9B9;
+    background-image: url(img/pulanglah.rest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 4px 15px 2px;
+}
+
+.bg-modal-su, .bg-modal-li {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+.modal-content-su, .modal-content-li {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+input {
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+.close-su, .close-li {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+
+}
+
+
+.admin-main{
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+    flex-wrap: wrap;    
+    justify-content: space-around;
+}
+
+.table-list{
+    width: calc(100vw - 340px);
+    height: calc(100vh - 70px);
+    background-color: #f1f1f1;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.admin-box-list{
+    width: 270px;
+    height: calc(100vh - 50px);
+    background-color: #f1f1f1;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.radio{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.radio__input {
+    display: none;
+}
+
+.radio__radio {
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid #d8e4e2;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+
+}
+
+.radio__radio::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background:  #009879;
+    border-radius: 50%;
+
+    transform: scale(0);
+    transition: 0.15s;
+}
+
+.radio__input:checked + .radio__radio::after{
+    transform: scale(1);
+}
+
+.admin-box-list ul {
+    list-style: none;
+    padding: 30px;
+}
+
+.admin-box-list ul li{
+    margin: 10px;
+    padding-top: 20px;
+}
+
+
+
+
+.table-wrapper{
+    max-height: 100%;
+    overflow-y: scroll;
+
+
+}
+table {
+    min-width: max-content;
+}
+
+th {
+    position: sticky;
+    top: 0px;
+    background-color: #ddd;
+}
+
+ th,td{
+    border:  solid #000;
+    border-collapse: collapse;
+
+}
+
+th,td{
+    padding: 10px;
+
+}
+
+tr:nth-child(even){
+    background-color: #fff;
+
+}
+
+tr:nth-child(odd){
+    background-color: #ddd;
+}
+
