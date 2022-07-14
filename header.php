@@ -18,7 +18,7 @@
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About Us</a></li>
-					<li><a href="order.php">Order</a></li>
+					<li><a href="cart.php">Order</a></li>
 					<li><a href="#" id="button-su" class="button-signup">Sign Up</a></li>
 					<li><a href="#" id="button-li" class="button-login"> Log In</a></li>
 

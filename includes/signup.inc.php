@@ -17,8 +17,10 @@ if (isset($_POST['submit'])) {
 		header("location: ../index.php?error=passwordNotMatch");
 		exit();
 	}
-	
-	createUser($c, $user_name, $pwd,$id);
+	$query = oci_parse($c, "INSERT INTO ACCUSERS(USER_UID,USER_PASSWORD,EMPLOYEE_ID) 
+	values('$user_name','$pwd','$id')");
+	$result = oci_execute($query);
+	header("location: ../logindex.php");
 }
 
 else {

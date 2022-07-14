@@ -227,6 +227,17 @@ main nav ul a{
     height: 135px;
 }
 
+.card-drink a p{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+}
+.card-drink a img {
+    width: 150px;
+    height: 135px;
+}
+
 .card-food:not(:first-child) {
     margin-left: var(--distance);
 }
@@ -343,7 +354,7 @@ footer ul li a{
     box-shadow: 4px 4px 15px 2px;
 }
 
-.bg-modal-su, .bg-modal-li {
+.bg-modal-su, .bg-modal-li,.bg-update,.bg-update-wcs,.bg-delete,.bg-delete-wcs{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -355,8 +366,8 @@ footer ul li a{
     display: none;
 }
 
-
-.modal-content-su, .modal-content-li {
+.modal-content-su, .modal-content-li,.modal-content-update,.modal-content-delete, .modal-content-delete-wcs
+,.modal-content-update-wcs {
     width: 500px;
     height: 300px;
     background-color: white;
@@ -366,13 +377,15 @@ footer ul li a{
     position: relative;
 }
 
+
+
 input {
     width: 50%;
     display: block;
     margin: 15px auto;
 }
 
-.close-su, .close-li {
+.close-su, .close-li,.close-update,.close-delete,.clode-update-wcs,.clode-delete-wcs {
     position: absolute;
     top: 0;
     right: 14px;
@@ -493,3 +506,155 @@ tr:nth-child(odd){
     background-color: #ddd;
 }
 
+.table-1, .table-2 {
+    display: none;
+}
+
+.test{
+    width: 250px;
+    height: 250px;
+
+    background-color: lightblue;
+    margin: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.but-update,.but-delete{
+    width: 180px;
+    margin: 0px auto;
+    border-radius: 10%;
+}
+
+.food-list-box{
+    width: 95vw;
+    height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    margin: 0px auto;
+    border-radius: 1rem;
+
+}
+
+.items{
+    width: 50px;
+    height: 50px;
+}
+.cards-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px 0px 20 px;
+    justify-content: space-around;
+    
+
+}
+.card-item{
+    height: 100px;
+    width: 100px;
+    background: #E1B9B9;
+    border-radius: 1rem; 
+    padding: 2rem;
+    box-shadow: 4px 4px 15px 2px rgba(0,0,0, 0.75);
+    transition: 0.2s;
+}
+
+.card-item p{
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+}
+.card-item img {
+    width: 100px;
+    height: 80px;
+}
+
+.card-item a button{
+    display: block;
+    margin-left: 30px;
+}
+
+
+.cart-page{
+    margin: 80px auto;
+}
+
+.cart-page table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.small-container th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: normal;
+}
+
+.small-container td{
+    padding: 10px 5px;
+}
+
+.small-container td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+.small-container td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+
+.small-container td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.small-container table{
+    
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border: hidden;
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 400px;
+}
+
+.total-price td:last-child{
+    text-align: right;
+}
+
+.total-price th:last-child{
+    text-align: right;
+}
+
+.total-price tr:nth-child(even){
+    background-color: white;
+
+}
+
+.total-price tr:nth-child(odd){
+    background-color: white;
+}
+.small-container tr:nth-child(even){
+    background-color: white;
+
+}
+
+.small-container tr:nth-child(odd){
+    background-color: white;
+}
