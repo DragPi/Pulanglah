@@ -61,28 +61,40 @@
 				
 				<div class="cards-drink">
 					<div class="card-drink">
-						<h3>Title</h3>
-						<p>this is pic</p>
+						<a href="#" class="item-food">
+							<p>Jus Apple</p>
+							<img src="img/jus-epal.jpg" alt="gambar jus apple">
+						</a>
 					</div>
 					<div class="card-drink">
-						<h3>Title</h3>
-						<p>this is pic</p>
+						<a href="#" class="item-food">
+							<p>Sirap Bandung</p>
+							<img src="img/sirap-bandung.jpg" alt="gambar sirap-bandung">
+						</a>
 					</div>
 					<div class="card-drink">
-						<h3>Title</h3>
-						<p>this is pic</p>
+						<a href="#" class="item-food">
+							<p>Milo Ais</p>
+							<img src="img/milo-ais.jpg" alt="gambar milo-ais">
+						</a>
 					</div>
 					<div class="card-drink">
-						<h3>Title</h3>
-						<p>this is pic</p>
+						<a href="#" class="item-food">
+							<p>Sirap Limau</p>
+							<img src="img/sirap-limau.jpg" alt="gambar sirap limau">
+						</a>
 					</div>
 					<div class="card-drink">
-						<h3>Title</h3>
-						<p>this is pic</p>
+						<a href="#" class="item-food">
+							<p>Green Tea</p>
+							<img src="img/green-tea.jpg" alt="gambar green tea">
+						</a>
 					</div>
 					<div class="card-drink">
-						<h3>Title</h3>
-						<p>this is pic</p>
+						<a href="#" class="item-food">
+							<p>Coklat</p>
+							<img src="img/coklat.jpg" alt="gambar coklat">
+						</a>
 					</div>
 				</div>
 			</section>

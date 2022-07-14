@@ -15,10 +15,12 @@
 			<section class="index-banner"></section>
 			<div class="wrapper">
 				<div class="about-text">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed felis eget velit aliquet sagittis id consectetur. Adipiscing vitae proin sagittis nisl rhoncus mattis. Amet purus gravida quis blandit turpis cursus. Sollicitudin tempor id eu nisl nunc mi ipsum. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin. Proin sed libero enim sed. Pretium viverra suspendisse potenti nullam ac tortor. Diam volutpat commodo sed egestas egestas. Nulla pellentesque dignissim enim sit.<br><br>
+					<p>Pulanglah Cuisine was first established in 1990 originally under the name of Pulanglah Kambing, a roadside stall located at Batang Kali, Selangor.
+					   In 2001, the stall redirected its focus on serving perak cuisine and the branding of the stall changed to Pulanglah Cuisine.
+					   Pulanglah Cuisine was founded by Wan Nur Darwisyah as the sole owner of the business. 
+					   The owner of Pulanglah Cuisine, Wan Nur Darwisyah wanted to keep the perak food heritage alive thus resulting in the change of main food served in the business.
 
-					Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Accumsan sit amet nulla facilisi morbi tempus iaculis urna id. Interdum consectetur libero id faucibus nisl tincidunt eget nullam. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Sem nulla pharetra diam sit. Nunc eget lorem dolor sed viverra ipsum nunc. Dolor sit amet consectetur adipiscing. Massa sapien faucibus et molestie ac. Tincidunt lobortis feugiat vivamus at. Nulla facilisi cras fermentum odio eu feugiat. Adipiscing elit duis tristique sollicitudin nibh. Integer enim neque volutpat ac tincidunt vitae semper. Fringilla urna porttitor rhoncus dolor. Cursus metus aliquam eleifend mi in.</p>
-				</div>
+					</div>
 				<div class="about-image"></div>
 			</div>
 			<?php 
