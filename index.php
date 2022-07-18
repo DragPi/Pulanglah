@@ -6,13 +6,6 @@
 			<section class="index-banner"></section>
 
 
-			<nav class="index-foods">
-				<ul>
-					<li class="food-link"><a href="food.php">FOODS</a></li>
-					<li class="drink-link"><a href="drink.php">DRINKS</a></li>
-				</ul>
-			</nav>
-
 			<h2 class="card-title">OUR FAVOURITE FOODS<br></h2>
 			<section class="cards">
 				
