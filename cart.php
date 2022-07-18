@@ -360,7 +360,3 @@
             </script>
 </main>
 <?php include('footer.php'); ?>
-
-
-
-testttttt
