@@ -7,7 +7,7 @@
                 <li><label for="EMPrad" class="radio">
                         <input type="radio" name="myRadioField" id="EMPrad" class="radio__input">
                         <div class="radio__radio"></div>
-                        Employees
+                        Employees <a href="#" id="update-id-emp" class="button-update">Update|</a> <a href="#" id="delete-id-emp" class="button-delete">Delete</a>
                     </label>
                 </li>
                 <li>
@@ -41,12 +41,18 @@
              ?>
             <?php  
             include_once 'delete.php' ?>
-             <?php 
+            <?php 
             include_once 'update-wcs.php';
-             ?>
-              <?php 
+            ?>
+            <?php 
             include_once 'delete-wcs.php';
-             ?>
+            ?>
+             <?php 
+            include_once 'employee-update.php';
+            ?>
+            <?php 
+            include_once 'employee-delete.php';
+            ?>
         </div> 
     <div class="table-list">
         <div class="table-wrapper">
@@ -63,7 +69,7 @@
     </div>
     </div>
 
-<script>
+<script >
     document.getElementById("EMPrad").addEventListener("click", myFunction);
     document.getElementById("Wrad").addEventListener("click", myFunction);
     document.getElementById("Prad").addEventListener("click", myFunction);
@@ -131,6 +137,23 @@ document.getElementById('delete-id-wcs').addEventListener('click', function () {
 document.querySelector('.close-delete-wcs').addEventListener('click',function(){
     document.querySelector('.bg-delete-wcs').style.display = 'none';
 });
+
+document.getElementById('delete-id-emp').addEventListener('click', function () {
+    document.querySelector('.bg-emp-delete').style.display = 'flex';
+});
+
+document.querySelector('.close-emp-delete').addEventListener('click',function(){
+    document.querySelector('.bg-emp-delete').style.display = 'none';
+});
+
+document.getElementById('update-id-emp').addEventListener('click', function () {
+    document.querySelector('.bg-emp-update').style.display = 'flex';
+});
+
+document.querySelector('.close-emp-update').addEventListener('click',function(){
+    document.querySelector('.bg-emp-update').style.display = 'none';
+});
+
 
 </script>
     </section>

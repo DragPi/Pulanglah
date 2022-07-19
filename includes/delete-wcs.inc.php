@@ -8,3 +8,8 @@ if (isset($_POST['submit'])) {
 	$result = oci_execute($query);
 	header("location: ../admin.php");
 }	
+
+else {
+	header("location: ../index.php");
+	exit();
+}

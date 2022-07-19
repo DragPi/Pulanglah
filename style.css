@@ -354,7 +354,8 @@ footer ul li a{
     box-shadow: 4px 4px 15px 2px;
 }
 
-.bg-modal-su, .bg-modal-li,.bg-update,.bg-update-wcs,.bg-delete,.bg-delete-wcs{
+.bg-modal-su, .bg-modal-li,.bg-update,.bg-update-wcs,.bg-delete,.bg-delete-wcs,
+.bg-emp-delete,.bg-emp-update{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -366,10 +367,21 @@ footer ul li a{
     display: none;
 }
 
+
 .modal-content-su, .modal-content-li,.modal-content-update,.modal-content-delete, .modal-content-delete-wcs
-,.modal-content-update-wcs {
+,.modal-content-update-wcs,.modal-content-emp-delete {
     width: 500px;
     height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.modal-content-emp-update{
+    width: 500px;
+    height: 400px;
     background-color: white;
     border-radius: 4px;
     text-align: center;
@@ -385,7 +397,8 @@ input {
     margin: 15px auto;
 }
 
-.close-su, .close-li,.close-update,.close-delete,.clode-update-wcs,.clode-delete-wcs {
+.close-su, .close-li,.close-update,.close-delete,.clode-update-wcs,.clode-delete-wcs,.close-emp-update,
+.close-emp-delete {
     position: absolute;
     top: 0;
     right: 14px;

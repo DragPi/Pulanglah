@@ -1,8 +1,4 @@
-	
 
-else {
-	header("location: ../index.php");
-	exit();
 <div class="bg-delete-wcs">
 	<div class="modal-content-delete-wcs">
 		<form action="includes/delete-wcs.inc.php" method="post">
