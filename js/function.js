@@ -679,3 +679,4 @@ function subtotal(){
   totalprice = subtotal+6;
   document.getElementById("at").innerHTML = "RM"+totalprice;
 }
+

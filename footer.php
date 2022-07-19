@@ -2,7 +2,7 @@
 			<ul class="footer-link-main">
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About Us</a></li>
-				<li><a href="order.php">Order</a></li>
+				<li><a href="cart.php">Cart</a></li>
 			
 			</ul>
 
